@@ -1,0 +1,12 @@
+1. Food taste analyzer.
+Collects user’s recently visited restaurants from Google Maps history & analyze preferred
+food price range, cuisines.
+Recommend restaurant locations equidistant from all users' address
+
+2. Thrift store flipper.
+Take picture of item, then using ebay api (or other marketplace) to look up prices.
+Need more features
+
+3. Realtime study application.
+Video calling, video/music playlist, additional features to aid studying
+(5 minute ice breaker games during study breaks)
