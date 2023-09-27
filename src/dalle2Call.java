@@ -17,7 +17,7 @@ public class dalle2Call {
             /******************************/
             /** NOTE: For the output image from this dalle-2 api call, please check the outputFiles/teddy.png file**/
             /******************************/
-            tryTheImageModel(apiKey);
+            tryTheImageModel(apiKey, "teddy writing a blog in times square");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -25,12 +25,12 @@ public class dalle2Call {
 
     }
 
-    private static void tryTheImageModel(String apiKey) throws IOException {
+    private static void tryTheImageModel(String apiKey, String prompt) throws IOException {
         // initiate the remote image model wrapper
         RemoteImageModel imageModel = new RemoteImageModel(apiKey, "openai");
 
         // prepare the input parameters
-        ImageModelInput imageInput = new ImageModelInput.Builder("teddy writing a blog in times square")
+        ImageModelInput imageInput = new ImageModelInput.Builder(prompt)
                 .setNumberOfImages(2).setImageSize("1024x1024").build();
 
         // call the model
