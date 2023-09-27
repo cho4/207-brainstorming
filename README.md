@@ -8,8 +8,8 @@ A story/movie generator. The user simply needs to enter a prompt, for example, "
 
 ## API Documentation:
 * [Google Cloud API](https://cloud.google.com/text-to-speech/docs/samples) - Text to Speech functionality
-* [DALL E2](https://openai.com/dall-e-2) - Create realistic images & art from text descriptions
-* [Cohere AI](https://txt.cohere.com/generative-ai-part-5/) - Generate storyline from text prompt
+* [DALL E2](https://openai.com/dall-e-2) - Create realistic images & art from text descriptions (requires paid API key))
+* [Cohere AI](https://txt.cohere.com/generative-ai-part-5/) - Generate storyline from text prompt (requires paid API key)
 
 
 ## Using Tools To Call APIs:
@@ -31,4 +31,6 @@ tryTheImageModel(apiKey, "teddy writing a blog in times square");
 // Outputs the image below:
 ```
 ![alt text](/outputFiles/teddy.png)
+
+Please note that if you are trying to run this code yourself, you will need to add the respective API keys as environment variables "cohere_key" and "openai_key". 
 
