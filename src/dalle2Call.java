@@ -3,7 +3,7 @@ import java.util.List;
 import com.intellijava.core.controller.RemoteImageModel;
 import com.intellijava.core.model.input.ImageModelInput;
 
-
+// Testing OpenAI's DALL-E API endpoint, which returns an image given a prompt
 public class dalle2Call {
 
     public static void main(String[] args) {

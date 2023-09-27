@@ -1,10 +1,10 @@
 import okhttp3.*;
-
 import java.io.IOException;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
+// Testing Cohere's co.generate() API Endpoint, which provides a text completion for a given prompt.
 public class CohereAPI {
 
     public static void main(String[] args) {
