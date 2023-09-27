@@ -12,7 +12,6 @@ public class intJCohere {
         try {
 
             // get the api key from https://dashboard.cohere.ai/
-            // TODO: replace <cohere-api-key> with your API key.
             String apiKey = "cdaK8qrffFT0JNL3ERAag8Uss0aSa5zXcRo5VxBJ";
 
             /********************************/

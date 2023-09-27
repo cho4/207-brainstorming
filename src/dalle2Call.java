@@ -15,7 +15,7 @@ public class dalle2Call {
             // get the api key from https://openai.com/api/
             String apiKey = "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";
             /******************************/
-            /** 2- Call image generation **/
+            /** NOTE: For the output image from this dalle-2 api call, please check the outputFiles/teddy.png file**/
             /******************************/
             tryTheImageModel(apiKey);
 
