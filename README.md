@@ -36,4 +36,5 @@ Please note that if you are trying to run this code yourself, you will need to a
 
 ## Technical Problems:
 
-* None at the moment
+* Finding a suitable GUI framework to take input and display results
+* Using Java to get the API calls to correctly return the expected data
