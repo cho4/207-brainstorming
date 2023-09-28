@@ -34,3 +34,6 @@ tryTheImageModel(apiKey, "teddy writing a blog in times square");
 
 Please note that if you are trying to run this code yourself, you will need to add the respective API keys as environment variables "cohere_key" and "openai_key". 
 
+## Technical Problems:
+
+* None at the moment
