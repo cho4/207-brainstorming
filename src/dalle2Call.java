@@ -25,7 +25,7 @@ public class dalle2Call {
 
     }
 
-    private static void tryTheImageModel(String apiKey, String prompt) throws IOException {
+    public static void tryTheImageModel(String apiKey, String prompt) throws IOException {
         // initiate the remote image model wrapper
         RemoteImageModel imageModel = new RemoteImageModel(apiKey, "openai");
 
