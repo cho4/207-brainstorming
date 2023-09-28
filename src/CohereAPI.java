@@ -22,8 +22,6 @@ public class CohereAPI {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
 
-        MediaType mediaType = MediaType.parse("application/json");
-
         String jsonBody = "{\n" +
                 "  \"max_tokens\": 20,\n" +
                 "  \"truncate\": \"END\",\n" +
